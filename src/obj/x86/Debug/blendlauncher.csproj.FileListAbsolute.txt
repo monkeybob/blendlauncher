@@ -1,0 +1,11 @@
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\bin\Debug\blendlauncher.exe
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\bin\Debug\blendlauncher.pdb
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\obj\x86\Debug\blendlauncher.Form1.resources
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\obj\x86\Debug\blendlauncher.Properties.Resources.resources
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\obj\x86\Debug\blendlauncher.exe
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\obj\x86\Debug\blendlauncher.pdb
+C:\Users\Matt\blendlauncher\src\obj\x86\Debug\blendlauncher.exe
+C:\Users\Matt\blendlauncher\src\obj\x86\Debug\blendlauncher.pdb

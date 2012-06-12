@@ -1,0 +1,9 @@
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\bin\Release\blendlauncher.exe
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\bin\Release\blendlauncher.pdb
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\obj\x86\Release\blendlauncher.Form1.resources
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\obj\x86\Release\blendlauncher.Properties.Resources.resources
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\obj\x86\Release\blendlauncher.exe
+C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\obj\x86\Release\blendlauncher.pdb
