@@ -9,3 +9,5 @@ C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\
 C:\Users\Matt\documents\visual studio 2010\Projects\blendlauncher\blendlauncher\obj\x86\Debug\blendlauncher.pdb
 C:\Users\Matt\blendlauncher\src\obj\x86\Debug\blendlauncher.exe
 C:\Users\Matt\blendlauncher\src\obj\x86\Debug\blendlauncher.pdb
+C:\Users\Matt\Documents\GitHub\blendlauncher\src\obj\x86\Debug\blendlauncher.exe
+C:\Users\Matt\Documents\GitHub\blendlauncher\src\obj\x86\Debug\blendlauncher.pdb
