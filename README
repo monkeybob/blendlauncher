@@ -1,1 +1,6 @@
 Version of Blendlauncher ported to Visual Studio Community 2015
+
+Blendlauncher is a small project of mine to act as a simple launcher for Blender Game Engine, much like Unity's default launcher. 
+It allows you to set essential things like window mode and resolution as well as limited options.
+
+Essentially it's a UI for Blender's command line arguments.
