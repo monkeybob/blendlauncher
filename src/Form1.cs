@@ -9,44 +9,54 @@ using System.Windows.Forms;
 
 namespace blendlauncher
 {
-    public partial class Form1 : Form
+    public partial class uiMain : Form
     {
-        public Form1()
+        public uiMain()
         {
             InitializeComponent();
         }
 
         private void radioButton4_Click(object sender, EventArgs e)
         {
-            windowvar.Text = "-w";
+            windowVar.Text = "-w";
         }
 
         private void radioButton3_Click(object sender, EventArgs e)
         {
-            windowvar.Text = "-f";
+            windowVar.Text = "-f";
         }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
-            widthvar.Text = textBox5.Text;
+            widthVar.Text = txtWidth.Text;
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-            heightvar.Text = textBox4.Text;
+            heightVar.Text = txtHeight.Text;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process Process = new System.Diagnostics.Process();
-            Process.StartInfo.FileName = "blenderplayer.exe";
-            Process.StartInfo.Arguments = windowvar.Text + " " + widthvar.Text + " " + heightvar.Text + " " + fileToLoad.Text;
-            Process.Start();
-        }
+            /*Error handling code added*/
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("butts");
+            if (System.IO.File.Exists("blenderplayer.exe")){
+                if (System.IO.File.Exists(fileToLoad.Text))
+                {
+                    System.Diagnostics.Process Process = new System.Diagnostics.Process();
+                    Process.StartInfo.FileName = "blenderplayer.exe";
+                    Process.StartInfo.Arguments = windowVar.Text + " " + widthVar.Text + " " + heightVar.Text + " " + fileToLoad.Text;
+                    Process.Start();
+                }
+                else
+                {
+                    MessageBox.Show(".blend file not found");
+                }
+            }
+            else
+            {
+                MessageBox.Show("blenderplayer.exe does not exist in this directory");
+            }
         }
     }
 }

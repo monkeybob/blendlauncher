@@ -17,3 +17,12 @@ C:\Users\Matt\Documents\GitHub\blendlauncher\src\obj\x86\Debug\blendlauncher.Pro
 C:\Users\Matt\Documents\GitHub\blendlauncher\src\obj\x86\Debug\blendlauncher.csproj.GenerateResource.Cache
 C:\Users\Matt\Documents\GitHub\blendlauncher\src\bin\Debug\blendlauncher.exe
 C:\Users\Matt\Documents\GitHub\blendlauncher\src\bin\Debug\blendlauncher.pdb
+C:\Users\Ashie\Documents\GitHub\blendlauncher\src\bin\Debug\blendlauncher.exe
+C:\Users\Ashie\Documents\GitHub\blendlauncher\src\bin\Debug\blendlauncher.pdb
+C:\Users\Ashie\Documents\GitHub\blendlauncher\src\obj\x86\Debug\blendlauncher.csprojAssemblyReference.cache
+C:\Users\Ashie\Documents\GitHub\blendlauncher\src\obj\x86\Debug\blendlauncher.Properties.Resources.resources
+C:\Users\Ashie\Documents\GitHub\blendlauncher\src\obj\x86\Debug\blendlauncher.csproj.GenerateResource.cache
+C:\Users\Ashie\Documents\GitHub\blendlauncher\src\obj\x86\Debug\blendlauncher.csproj.CoreCompileInputs.cache
+C:\Users\Ashie\Documents\GitHub\blendlauncher\src\obj\x86\Debug\blendlauncher.exe
+C:\Users\Ashie\Documents\GitHub\blendlauncher\src\obj\x86\Debug\blendlauncher.pdb
+C:\Users\Ashie\Documents\GitHub\blendlauncher\src\obj\x86\Debug\blendlauncher.uiMain.resources
