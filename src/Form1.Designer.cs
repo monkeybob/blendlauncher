@@ -1,6 +1,6 @@
 ﻿namespace blendlauncher
 {
-    partial class Form1
+    partial class uiMain
     {
         /// <summary>
         /// Required designer variable.
@@ -28,65 +28,64 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.uiTabControl = new System.Windows.Forms.TabControl();
+            this.uiTab1 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtHeight = new System.Windows.Forms.TextBox();
+            this.txtWidth = new System.Windows.Forms.TextBox();
             this.fileToLoad = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.heightvar = new System.Windows.Forms.Label();
-            this.widthvar = new System.Windows.Forms.Label();
-            this.windowvar = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.uiHeight = new System.Windows.Forms.Label();
+            this.uiWidth = new System.Windows.Forms.Label();
+            this.uiFile = new System.Windows.Forms.Label();
+            this.uiTab2 = new System.Windows.Forms.TabPage();
+            this.uiCredits = new System.Windows.Forms.Label();
+            this.heightVar = new System.Windows.Forms.Label();
+            this.widthVar = new System.Windows.Forms.Label();
+            this.windowVar = new System.Windows.Forms.Label();
+            this.headerImage = new System.Windows.Forms.PictureBox();
+            this.uiArgs = new System.Windows.Forms.Label();
+            this.uiTabControl.SuspendLayout();
+            this.uiTab1.SuspendLayout();
+            this.uiTab2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.headerImage)).BeginInit();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // uiTabControl
             // 
-            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(0, 154);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(580, 211);
-            this.tabControl1.TabIndex = 0;
+            this.uiTabControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.uiTabControl.Controls.Add(this.uiTab1);
+            this.uiTabControl.Controls.Add(this.uiTab2);
+            this.uiTabControl.Location = new System.Drawing.Point(0, 170);
+            this.uiTabControl.Name = "uiTabControl";
+            this.uiTabControl.SelectedIndex = 0;
+            this.uiTabControl.Size = new System.Drawing.Size(305, 211);
+            this.uiTabControl.TabIndex = 0;
             // 
-            // tabPage1
+            // uiTab1
             // 
-            this.tabPage1.Controls.Add(this.button3);
-            this.tabPage1.Controls.Add(this.textBox1);
-            this.tabPage1.Controls.Add(this.button1);
-            this.tabPage1.Controls.Add(this.radioButton3);
-            this.tabPage1.Controls.Add(this.radioButton4);
-            this.tabPage1.Controls.Add(this.textBox4);
-            this.tabPage1.Controls.Add(this.textBox5);
-            this.tabPage1.Controls.Add(this.fileToLoad);
-            this.tabPage1.Controls.Add(this.label4);
-            this.tabPage1.Controls.Add(this.label5);
-            this.tabPage1.Controls.Add(this.label6);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(572, 185);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Launcher";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.uiTab1.Controls.Add(this.button1);
+            this.uiTab1.Controls.Add(this.radioButton3);
+            this.uiTab1.Controls.Add(this.radioButton4);
+            this.uiTab1.Controls.Add(this.txtHeight);
+            this.uiTab1.Controls.Add(this.txtWidth);
+            this.uiTab1.Controls.Add(this.fileToLoad);
+            this.uiTab1.Controls.Add(this.uiHeight);
+            this.uiTab1.Controls.Add(this.uiWidth);
+            this.uiTab1.Controls.Add(this.uiFile);
+            this.uiTab1.Location = new System.Drawing.Point(4, 22);
+            this.uiTab1.Name = "uiTab1";
+            this.uiTab1.Padding = new System.Windows.Forms.Padding(3);
+            this.uiTab1.Size = new System.Drawing.Size(297, 185);
+            this.uiTab1.TabIndex = 0;
+            this.uiTab1.Text = "Launcher";
+            this.uiTab1.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(178, 143);
+            this.button1.Location = new System.Drawing.Point(213, 154);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 16;
@@ -97,7 +96,7 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(134, 37);
+            this.radioButton3.Location = new System.Drawing.Point(213, 107);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(73, 17);
             this.radioButton3.TabIndex = 15;
@@ -110,7 +109,7 @@
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Checked = true;
-            this.radioButton4.Location = new System.Drawing.Point(46, 37);
+            this.radioButton4.Location = new System.Drawing.Point(114, 107);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(76, 17);
             this.radioButton4.TabIndex = 14;
@@ -119,169 +118,172 @@
             this.radioButton4.UseVisualStyleBackColor = true;
             this.radioButton4.Click += new System.EventHandler(this.radioButton4_Click);
             // 
-            // textBox4
+            // txtHeight
             // 
-            this.textBox4.Location = new System.Drawing.Point(89, 93);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(148, 20);
-            this.textBox4.TabIndex = 13;
-            this.textBox4.Text = "720";
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.txtHeight.Location = new System.Drawing.Point(89, 81);
+            this.txtHeight.Name = "txtHeight";
+            this.txtHeight.Size = new System.Drawing.Size(199, 20);
+            this.txtHeight.TabIndex = 13;
+            this.txtHeight.Text = "720";
+            this.txtHeight.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
-            // textBox5
+            // txtWidth
             // 
-            this.textBox5.Location = new System.Drawing.Point(89, 67);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(148, 20);
-            this.textBox5.TabIndex = 12;
-            this.textBox5.Text = "1280";
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            this.txtWidth.Location = new System.Drawing.Point(89, 55);
+            this.txtWidth.Name = "txtWidth";
+            this.txtWidth.Size = new System.Drawing.Size(199, 20);
+            this.txtWidth.TabIndex = 12;
+            this.txtWidth.Text = "1280";
+            this.txtWidth.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // fileToLoad
             // 
             this.fileToLoad.Enabled = false;
             this.fileToLoad.Location = new System.Drawing.Point(79, 11);
             this.fileToLoad.Name = "fileToLoad";
-            this.fileToLoad.Size = new System.Drawing.Size(158, 20);
+            this.fileToLoad.Size = new System.Drawing.Size(209, 20);
             this.fileToLoad.TabIndex = 11;
             this.fileToLoad.Text = "example.blend";
             // 
-            // label4
+            // uiHeight
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(8, 96);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 13);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Screen Height:";
+            this.uiHeight.AutoSize = true;
+            this.uiHeight.Location = new System.Drawing.Point(8, 84);
+            this.uiHeight.Name = "uiHeight";
+            this.uiHeight.Size = new System.Drawing.Size(78, 13);
+            this.uiHeight.TabIndex = 10;
+            this.uiHeight.Text = "Screen Height:";
             // 
-            // label5
+            // uiWidth
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(8, 70);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(75, 13);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Screen Width:";
+            this.uiWidth.AutoSize = true;
+            this.uiWidth.Location = new System.Drawing.Point(8, 58);
+            this.uiWidth.Name = "uiWidth";
+            this.uiWidth.Size = new System.Drawing.Size(75, 13);
+            this.uiWidth.TabIndex = 9;
+            this.uiWidth.Text = "Screen Width:";
             // 
-            // label6
+            // uiFile
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(8, 14);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 13);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "File to open:";
+            this.uiFile.AutoSize = true;
+            this.uiFile.Location = new System.Drawing.Point(8, 14);
+            this.uiFile.Name = "uiFile";
+            this.uiFile.Size = new System.Drawing.Size(65, 13);
+            this.uiFile.TabIndex = 8;
+            this.uiFile.Text = "File to open:";
             // 
-            // tabPage2
+            // uiTab2
             // 
-            this.tabPage2.Controls.Add(this.heightvar);
-            this.tabPage2.Controls.Add(this.widthvar);
-            this.tabPage2.Controls.Add(this.windowvar);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(571, 339);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "About";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.uiTab2.Controls.Add(this.uiArgs);
+            this.uiTab2.Controls.Add(this.uiCredits);
+            this.uiTab2.Controls.Add(this.heightVar);
+            this.uiTab2.Controls.Add(this.widthVar);
+            this.uiTab2.Controls.Add(this.windowVar);
+            this.uiTab2.Location = new System.Drawing.Point(4, 22);
+            this.uiTab2.Name = "uiTab2";
+            this.uiTab2.Padding = new System.Windows.Forms.Padding(3);
+            this.uiTab2.Size = new System.Drawing.Size(297, 185);
+            this.uiTab2.TabIndex = 1;
+            this.uiTab2.Text = "About";
+            this.uiTab2.UseVisualStyleBackColor = true;
             // 
-            // heightvar
+            // uiCredits
             // 
-            this.heightvar.AutoSize = true;
-            this.heightvar.Location = new System.Drawing.Point(90, 3);
-            this.heightvar.Name = "heightvar";
-            this.heightvar.Size = new System.Drawing.Size(25, 13);
-            this.heightvar.TabIndex = 2;
-            this.heightvar.Text = "720";
+            this.uiCredits.AutoSize = true;
+            this.uiCredits.Location = new System.Drawing.Point(4, 7);
+            this.uiCredits.Name = "uiCredits";
+            this.uiCredits.Size = new System.Drawing.Size(164, 13);
+            this.uiCredits.TabIndex = 3;
+            this.uiCredits.Text = "Blendlauncher code by Kiera Ash";
             // 
-            // widthvar
+            // heightVar
             // 
-            this.widthvar.AutoSize = true;
-            this.widthvar.Location = new System.Drawing.Point(49, 3);
-            this.widthvar.Name = "widthvar";
-            this.widthvar.Size = new System.Drawing.Size(31, 13);
-            this.widthvar.TabIndex = 1;
-            this.widthvar.Text = "1280";
+            this.heightVar.AutoSize = true;
+            this.heightVar.Location = new System.Drawing.Point(89, 167);
+            this.heightVar.Name = "heightVar";
+            this.heightVar.Size = new System.Drawing.Size(25, 13);
+            this.heightVar.TabIndex = 2;
+            this.heightVar.Text = "720";
             // 
-            // windowvar
+            // widthVar
             // 
-            this.windowvar.AutoSize = true;
-            this.windowvar.Location = new System.Drawing.Point(8, 3);
-            this.windowvar.Name = "windowvar";
-            this.windowvar.Size = new System.Drawing.Size(18, 13);
-            this.windowvar.TabIndex = 0;
-            this.windowvar.Text = "-w";
+            this.widthVar.AutoSize = true;
+            this.widthVar.Location = new System.Drawing.Point(48, 167);
+            this.widthVar.Name = "widthVar";
+            this.widthVar.Size = new System.Drawing.Size(31, 13);
+            this.widthVar.TabIndex = 1;
+            this.widthVar.Text = "1280";
             // 
-            // pictureBox1
+            // windowVar
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.windowVar.AutoSize = true;
+            this.windowVar.Location = new System.Drawing.Point(7, 167);
+            this.windowVar.Name = "windowVar";
+            this.windowVar.Size = new System.Drawing.Size(18, 13);
+            this.windowVar.TabIndex = 0;
+            this.windowVar.Text = "-w";
+            // 
+            // headerImage
+            // 
+            this.headerImage.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Location = new System.Drawing.Point(0, -3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(580, 151);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.headerImage.Location = new System.Drawing.Point(0, -3);
+            this.headerImage.Name = "headerImage";
+            this.headerImage.Size = new System.Drawing.Size(305, 167);
+            this.headerImage.TabIndex = 1;
+            this.headerImage.TabStop = false;
             // 
-            // textBox1
+            // uiArgs
             // 
-            this.textBox1.Location = new System.Drawing.Point(369, 52);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 17;
+            this.uiArgs.AutoSize = true;
+            this.uiArgs.Location = new System.Drawing.Point(8, 142);
+            this.uiArgs.Name = "uiArgs";
+            this.uiArgs.Size = new System.Drawing.Size(57, 13);
+            this.uiArgs.TabIndex = 4;
+            this.uiArgs.Text = "Arguments";
             // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(475, 50);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 19;
-            this.button3.Text = "Display";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // Form1
+            // uiMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(579, 365);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.tabControl1);
+            this.ClientSize = new System.Drawing.Size(304, 381);
+            this.Controls.Add(this.headerImage);
+            this.Controls.Add(this.uiTabControl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "uiMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Blendlauncher Alpha 2-2015";
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Text = "Blendlauncher Alpha 3-2018";
+            this.uiTabControl.ResumeLayout(false);
+            this.uiTab1.ResumeLayout(false);
+            this.uiTab1.PerformLayout();
+            this.uiTab2.ResumeLayout(false);
+            this.uiTab2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.headerImage)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabControl uiTabControl;
+        private System.Windows.Forms.TabPage uiTab1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtHeight;
+        private System.Windows.Forms.TextBox txtWidth;
         private System.Windows.Forms.TextBox fileToLoad;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.Label heightvar;
-        private System.Windows.Forms.Label widthvar;
-        private System.Windows.Forms.Label windowvar;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label uiHeight;
+        private System.Windows.Forms.Label uiWidth;
+        private System.Windows.Forms.Label uiFile;
+        private System.Windows.Forms.TabPage uiTab2;
+        private System.Windows.Forms.Label heightVar;
+        private System.Windows.Forms.Label widthVar;
+        private System.Windows.Forms.Label windowVar;
+        private System.Windows.Forms.PictureBox headerImage;
+        private System.Windows.Forms.Label uiCredits;
+        private System.Windows.Forms.Label uiArgs;
     }
 }
 
